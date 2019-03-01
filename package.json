@@ -1,0 +1,26 @@
+{
+  "name": "5e-quick-stats",
+  "version": "1.0.0",
+  "description": "Site for generating stats for a 5e character quick.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrFennell/5e-Quick-Stats.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrFennell/5e-Quick-Stats/issues"
+  },
+  "homepage": "https://github.com/MrFennell/5e-Quick-Stats#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3",
+    "sequelize": "^4.42.1",
+    "sqlite3": "^4.0.6"
+  }
+}
