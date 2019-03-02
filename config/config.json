@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "dbo775612246",
+    "password": "Walter15",
+    "database": "db775612246",
+    "host": "db775612246.hosting-data.io",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "dbo775612246",
+    "password": "Walter15",
+    "database": "db775612246",
+    "host": "db775612246.hosting-data.io",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
