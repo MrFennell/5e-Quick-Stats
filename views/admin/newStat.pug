@@ -1,0 +1,15 @@
+extends ../layout
+
+block body
+
+    h2 Edit the stat names.
+    p #{responseText}
+    p #{stats}
+    
+    form(action="/admin/newStat" method="POST")
+        label Name of new Stat:
+        input(type="text" name="newStat")
+        button(type="submit") Add!
+
+
+    
