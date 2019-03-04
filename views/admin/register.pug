@@ -1,0 +1,17 @@
+extends ../layout
+
+block body
+    
+    h2 Please register below:
+    form(method="post" action="/admin/register")
+        .field
+            label.label Username
+            input.input(type="text" name="username")
+        .field
+            label.label Password
+            input.input(type="password" name="password" placeholder="Enter Password")
+        .field
+            label.label Password Confirm
+            input.input(type="password" name="password" placeholder="Repeat Password")
+        .control
+            button.button.is-link Submit

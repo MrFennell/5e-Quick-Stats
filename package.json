@@ -19,6 +19,7 @@
   "homepage": "https://github.com/MrFennell/5e-Quick-Stats#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "express-session": "^1.15.6",
     "pug": "^2.0.3",
     "sequelize": "^4.42.1",
     "sequelize-cli": "^5.4.0",
